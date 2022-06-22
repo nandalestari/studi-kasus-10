@@ -31,3 +31,21 @@ cout<<endl;
 cout<<"__________________\n";
 cout<<"No"<<"\t"<<"Nama"<<"\t\t"<<"NIM"<<"\t\t"<<"Alamat nim"<<endl;
 cout<<"__________________\n";
+for( int i=1;i<=p;i++)
+{
+y=&nim[i];
+cout<<i<<"\t"<<nama[i]<<"\t\t"<<nim[i]<<"\t\t"<<y<<"\t";
+
+cout<<endl;
+}
+cout<<endl;
+}
+
+int main(){
+	cout << "=======================================================\n";
+	cout << "\t\t\tPROGRAM POINTER\n";
+	cout << "=======================================================\n";
+    Mahasiswa UAD;
+    UAD.mhs();
+    return 0;
+}
